@@ -15,3 +15,4 @@ def get_text_message(message):
         bot.send_message(message.from_user.id, 'ХЗ')
 
 bot.polling(none_stop = True)
+
