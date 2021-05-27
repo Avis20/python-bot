@@ -1,1 +1,1 @@
-web: bundle exec bin/python3 main.py
+web: python my_bot.py
