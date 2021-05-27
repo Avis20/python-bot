@@ -13,7 +13,7 @@ dp = Dispatcher(bot)
 @dp.message_handler(content_types=ContentTypes.TEXT)
 async def echo_msg(message: types.message):
     # повторяем сообщение которое отправил пользователь
-    await message.reply(message.text)
+    await message.reply("Привет - " + message.text)
 
 if __name__ == '__main__':
     # пингуем сервер телеграм пока не получим ответ
